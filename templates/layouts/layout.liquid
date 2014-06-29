@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ model.title }} - {{ global.title }}{% endblock %}</title>
+    {% block head_end %}{% include "html-head-end" %}{% endblock %}
+  </head>
+  <body>
+    {% include "header" %}
+
+    <!-- Allow child pages to override container css class. -->
+    <div class="container {% block container_class %}layout-container{% endblock %}">
+      {% block navigation %}{% include "navigation" %}{% endblock %}
+
+      <!-- Content block, child page inject content -->
+      {% block content %}{% endblock %}
+    </div>
+      
+    {% include "footer" %}
+  
+    {% include "html-body-end" %}
+  </body>
+</html>

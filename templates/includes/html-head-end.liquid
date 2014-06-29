@@ -1,0 +1,18 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/theme/css/style.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="alternate" type="application/rss+xml" href="/rss{% if mixture.route.tag %}-{{ mixture.route.tag }}{% endif %}" title="{{ global.title }} - RSS Feed">
+    <meta name="description" content="{{ model.description }}">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{ model.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="{{ model.description }}" />
+    <meta property="og:url" content="{% include "util/domain-and-url" %}" />
+    {% if model.image %}
+    <meta property="og:image" content="{{ global.domain }}{{ model.image }}" />
+    {% endif %}
+    {% if global.googleplus %}<link rel="author" href="https://plus.google.com/{{ global.googleplus }}"/>{% endif %}
+    {% include "analytics-js" %}

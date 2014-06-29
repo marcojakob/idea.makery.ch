@@ -1,0 +1,409 @@
+@import "custom-variables.scss";
+@import "fonts.scss";
+
+@import "bootstrap/bootstrap.scss";
+
+
+//
+// General styles
+// -------------------------------
+
+// Black links without text decorations.
+a {
+  &.black-link,
+  &.gray-link, 
+  &.main-link {
+    text-decoration: none;
+  }
+
+  &.black-link {
+    color: $text-color;
+  }
+  
+  &.gray-link {
+    color: $gray-light;
+  }
+  
+  &.main-link {
+    color: $main-color;
+  }
+  
+  &:hover.black-link,
+  &:focus.black-link, 
+  &:hover.gray-link,
+  &:focus.gray-link,
+  &:hover.main-link,
+  &:focus.main-link
+  {
+    color: $link-color;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-text {
+  color: $main-color;
+}
+
+// Code blocks
+pre {
+  font-size: $font-size-code-block; 
+}
+
+// Labels and Badges
+.label, 
+.badge {
+  font-family: $font-family-sans-serif; 
+  
+  &.pull-right {
+    margin-left: 5px; 
+  }
+}
+
+.label-main {
+  @include label-variant($main-color);
+}
+
+// Ordered lists
+ol {
+  list-style-type: decimal;
+  ol {
+    list-style-type: lower-alpha;
+    ol {
+      list-style-type: lower-roman;
+    }
+  }
+}
+
+// Ordered lists starting with lower-alpha
+ol.alpha-list,
+.alpha-list + ol {
+  list-style-type: lower-alpha;
+  ol {
+    list-style-type: lower-roman;
+    ol {
+      list-style-type: decimal;
+    }
+  }
+}
+
+// 
+// Ribbon (http://unindented.org/articles/github-ribbon-using-css-transforms/)
+// ----------------------------------------------------------------------------
+.ribbon {
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.ribbon a {
+  position: absolute;
+  right: -60px;
+  top: 60px;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px #888;
+  background-color: $main-color;
+  color: #fff;
+  display: block;
+  font-family: $font-family-sans-serif;
+  margin: 1px 0;
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 5px #444;
+  
+  &:before,
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 1px;
+    background-color: lighten($main-color, 6%);
+  }
+  &:before {
+    top: 1px;
+  }
+  &:after {
+    top: auto;
+    bottom: 1px;
+  }
+}
+
+
+//
+// Panels
+// -------------------------------
+.panel-body {
+  img, 
+  i {
+    float: left;
+    max-width: 120px;
+  }
+  p {
+    padding-left: 135px; 
+  }
+}
+
+// Collapsible panel
+.panel-collapsible {
+  cursor: pointer;
+  
+  .panel-footer {
+    font-size: $font-size-small;
+    i {
+      color: $gray-light;
+    }
+    &:hover i {
+      color: $text-color;
+    }
+  }
+  
+  // Correctly handle collapse show/hide icon and text.
+  .panel-show {
+    display: none; 
+  }
+  .collapse + .panel-footer {
+    .panel-show {
+      display: inline;
+    }
+    .panel-hide {
+      display: none;
+    }
+  }
+  .collapse.in + .panel-footer {
+    .panel-show {
+      display: none;
+    }
+    .panel-hide {
+      display: inline; 
+    }
+  }  
+}
+
+// Entire panel as a link
+.panel-link {
+  color: inherit;
+  
+  &:hover,
+  &:focus {
+    color: inherit;
+    text-decoration: none;
+    
+    & > div {
+      border-color: $panel-hover-border;
+    }
+  }
+}
+
+
+//
+// Site header
+// -------------------------------
+.site-header {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.site-title {
+  a {
+    color: $text-color;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 1;
+  }
+}
+
+.site-intro {
+  font-size: 20px;
+  line-height: 1;
+  color: $gray-light;
+}
+
+//
+// Site footer
+// -------------------------------
+.site-footer {
+  position: relative;
+  margin: 8rem 0 0 0;
+  padding: 4rem 0;
+  border-top: $hr-border 1px solid;
+  text-align: center;
+  background: #fbfbfb;
+  font-size: $font-size-small;
+  color: $gray-light;
+}
+
+
+//
+// Navigation
+// ---------------------
+.site-navigation {
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 1.8em;
+  margin-bottom: 2.8em;
+  font-size: 14px;
+
+  ul {
+    margin : 0;
+    padding: 0;
+    position: relative;
+  }
+
+  li {
+    list-style: none;
+    border-top: rgba(0,0,0,0.1) 1px solid;
+    margin: 0;
+    line-height: 1.3em;
+    
+    a {
+      display: block;
+      padding:10px 0;
+      background:transparent;
+    }
+  }
+  
+  @media (min-width: $grid-float-breakpoint) {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 17px;
+
+    ul {
+      margin: 20px 0 0 0;
+
+      &:after {
+        content: " ";
+        display: table;
+        clear:both;
+      }
+    }
+
+	li {
+      border: none;
+      display: inline-block;
+      text-transform: uppercase;
+
+      a {
+        border-bottom: 0;
+        padding: 10px 30px;
+      }
+      
+      a:hover,  
+      a:focus {
+        color: $link-color;
+      }
+    }
+  }
+}
+
+
+//
+// Main-layout
+// -------------------------------
+.layout-container {
+  max-width: 750px;
+}
+
+//
+// Home page (index.html)
+// -------------------------------
+.home-featured {
+  margin-top: 70px; 
+}
+
+.home-recent {
+  margin-top: 70px;
+  
+  h3,
+  h4 {
+    font-weight: normal;
+  }
+}
+
+//
+// Java and Dart page
+// -------------------------------
+.java-recent,
+.dart-recent {
+  margin-top: 35px;
+  
+  h3,
+  h4 {
+    font-weight: normal;
+  }
+}
+
+
+//
+// Articles and blog posts
+// -------------------------------
+.post-container {
+  max-width: 750px; 
+}
+
+.post-header {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.article-title {
+  margin-top: 0; 
+}
+
+.article-series,
+.article-downloads {
+  margin-top: 3px;
+  font-size: 15px;
+  font-family: $font-family-sans-serif;
+}
+
+.article-date,
+.post-date {
+  font-size: 15px;
+  line-height: 1;
+  color: $gray-light;
+}
+
+.article-content,
+.post-content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.post-ruler {
+  width: 50%;
+}
+
+.article-paging {
+  text-align: center; 
+  margin-top: 2em;
+}
+
+
+//
+// Paging
+// -------------------------------
+.paging {
+  position: relative;
+  text-align: center;
+  
+  .previous {
+    position: absolute;
+    left: 0;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+  }
+}
+
