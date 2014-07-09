@@ -69,8 +69,8 @@
     "convertHtml": {
         "extension": null,
         "path": null,
-        "ignoreUrls": null,
-        "relativePath": false,
+        "ignoreUrls": [ "blogtag" ],
+        "relativePaths": false,
         "default": "index"
     }
 }
