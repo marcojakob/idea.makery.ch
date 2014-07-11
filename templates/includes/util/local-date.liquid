@@ -1,0 +1,21 @@
+{%- assign d = local-date | date: "%d" -%}
+{%- if d  != "10" -%}
+{%- assign d = d | remove: "0" -%}
+{%- endif -%}
+{{ d }}.
+{% assign m = local-date | date: "%m" -%}
+{%- case m -%}
+  {% when '01' %}Januar
+  {% when '02' %}Februar
+  {% when '03' %}März
+  {% when '04' %}April
+  {% when '05' %}Mai
+  {% when '06' %}Juni
+  {% when '07' %}Juli
+  {% when '08' %}August
+  {% when '09' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{%- endcase -%}
+{{ local-date | date: "%Y" }}
