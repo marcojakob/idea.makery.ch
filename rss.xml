@@ -1,0 +1,26 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+  <channel>
+    <title><![CDATA[idea.makery.ch]]></title>
+    <link>http://idea.makery.ch</link>
+    <description>Sharing ideas and making some a reality.</description>
+    <language>en</language>
+    <webMaster>majakob@gmx.ch</webMaster>
+    <copyright>2014</copyright>
+    <lastBuildDate>Fri, 11 Jul 2014 19:24:58 CET</lastBuildDate>
+    <generator>mixture.io</generator>
+    
+      
+<item>
+	<title><![CDATA[Warum idea.makery.ch?]]></title>
+	<link>http://idea.makery.ch/blog/warum-idea-makery-ch/</link>
+	<guid>/blog/warum-idea-makery-ch/</guid>
+	
+	<pubDate>Tue, 04 Feb 2014 00:00:00 CET</pubDate>
+	<description>
+Innovative Ideen entwickeln, davon tr&#228;umen und dar&#252;ber diskutieren ist etwas, das ich liebe. In Gespr&#228;chen treffen Gedanken aufeinander und inspirieren neue, ausgereiftere, Ideen.
+Mit diesem Blog m&#246;chte ich diese Gespr&#228;che &#246;ffentlich machen, damit sie f&#252;r alle Interessierten zug&#228;nglich sind. Ich hoffe, dass dadurch viele engagierte Diskussionen entstehen, ob online oder offline.
+Die...</description>
+</item>
+    
+  </channel>
+</rss>
