@@ -44,6 +44,18 @@ img {
   height: auto;
 }
 
+.img-right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.img-left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
 .main-text {
   color: $main-color;
 }
@@ -248,22 +260,6 @@ ol.alpha-list,
 }
 
 //
-// Home page (index.html)
-// -------------------------------
-.home-featured {
-  margin-top: 70px; 
-}
-
-.home-recent {
-  margin-top: 70px;
-  
-  h3,
-  h4 {
-    font-weight: normal;
-  }
-}
-
-//
 // Articles and Blog posts
 // -------------------------------
 .post-container {
@@ -275,18 +271,12 @@ ol.alpha-list,
   margin-top: 2em;
 }
 
-.article-title {
-  margin-top: 0; 
-}
-
-.article-date,
 .post-date {
   font-size: 15px;
   line-height: 1;
   color: $gray-light;
 }
 
-.article-content,
 .post-content {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -294,11 +284,6 @@ ol.alpha-list,
 
 .post-ruler {
   width: 50%;
-}
-
-.article-paging {
-  text-align: center; 
-  margin-top: 2em;
 }
 
 

@@ -19,14 +19,14 @@ Mit diesem Blog möchte ich diese Gespräche öffentlich machen, damit sie für 
 Die Adresse dieses Blogs enthält drei Teile: **idea**, **makery** und **.ch**. Diese Begriffe sind zentral, weshalb ich sie kurz erklären möchte.
 
 
-## Idea
+## idea
 
 Innovation beginnt mit kleinen Ideen, oder, in den Worten von [Steven Johnson](https://www.youtube.com/watch?v=NugRZGDbPFU) mit einem *slow hunch* (=einer leisen Vorahnung). Leider ist das aber auch oft der Ort, wo wir stehen bleiben. Wir werden entmutigt (entweder durch uns selbst oder durch andere) und geben auf.
 
 Diese zerbrechlichen, kleinen Ideen brauchen einen sicheren Ort zum Reifen. Solche Orte gibt es selten, deshalb sollten wir ganz bewusst Umgebungen schaffen, wo innovative Ideen geformt werden können. 
 
 
-## Makery
+## makery
 
 Makery ist eine Kombination von "Bakery" und "Making". Ich fand einfach diese zwei Worte sehr sympathisch. In einer Bäkerei wird etwas gebacken. Ein angenehmer Duft eilt dem frischen Produkt voraus. Es bleibt also nicht bei der Idee, sondern die Idee wird Realität. Es wird tatsächlich etwas "gemacht".
 
