@@ -6,7 +6,7 @@ slug: open-1-einleitung
 description: "Wie werden wir in Zukunft Arbeiten und Lernen. David Price schreibt von einer Revolution, getrieben von technologischen Möglichkeiten, die unser Leben verändert."
 image: /assets/blog/14-07-12-open-1-einleitung/open-cover.png
 published: true
-comments: false
+comments: true
 ---
 
 <img src="/assets/blog/14-07-12-open-1-einleitung/open-cover.png" class="img-right">

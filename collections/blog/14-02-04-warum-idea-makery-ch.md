@@ -4,7 +4,7 @@ title: Warum idea.makery.ch?
 date: 2014-02-04 00:00
 updated: 2014-07-11 00:00
 slug: warum-idea-makery-ch
-description: ""
+description: "Mit diesem Blog möchte ich diese Gespräche über Ideen öffentlich machen, damit sie für alle Interessierten zugänglich sind. Ich hoffe, dass dadurch viele engagierte Diskussionen entstehen, ob online oder offline."
 image: /assets/blog/14-02-04-warum-idea-makery-ch/mushroom.jpg
 published: true
 comments: true

@@ -3,13 +3,14 @@ layout: post
 title: "\"Open\" - Teil 2: SOFT Prinzipien"
 date: 2014-07-19 00:00
 slug: open-2-soft-prinzipien
+description: "David Price führt vier Werte ein, die das prägen, was wir online und immer mehr auch offline tun. Es sind die Werte Share, Open, Free und Trust (kurz SOFT)."
 published: true
-comments: false
+comments: true
 ---
 
-***
+David Price führt vier Werte ein, die das prägen, was wir online und immer mehr auch offline tun. Es sind die Werte *Share*, *Open*, *Free* und *Trust* (kurz *SOFT*).
 
-Dies ist **Teil 2** der Artikelserie:
+***
 
 * [Teil 1: Einleitung](/blog/open-1-einleitung/)
 * **Teil 2: SOFT Prinzipien**
@@ -18,8 +19,6 @@ Dies ist **Teil 2** der Artikelserie:
 * [Teil 5: Bildung](/blog/open-5-bildung/)
 
 ***
-
-David Price führt vier Werte ein, die das prägen, was wir online und immer mehr auch offline tun. Es sind die Werte *Share*, *Open*, *Free* und *Trust* (kurz *SOFT*).
 
 
 ### Share

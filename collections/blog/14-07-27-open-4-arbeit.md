@@ -3,13 +3,14 @@ layout: post
 title: "\"Open\" - Teil 4: Arbeit"
 date: 2014-07-27 01:00
 slug: open-4-arbeit
+description: "Anhand der Erfinderfabrik von Thomas Edison schauen wir an, wie Open Learning bei der Arbeit aussehen kann."
 published: true
-comments: false
+comments: true
 ---
 
-***
+In diesem Teil geht es um *Open Learning* bei der Arbeit.
 
-Dies ist **Teil 4** der Artikelserie:
+***
 
 * [Teil 1: Einleitung](/blog/open-1-einleitung/)
 * [Teil 2: SOFT Prinzipien](/blog/open-2-soft-prinzipien/)
@@ -18,8 +19,6 @@ Dies ist **Teil 4** der Artikelserie:
 * [Teil 5: Bildung](/blog/open-5-bildung/)
 
 ***
-
-In diesem Teil geht es um *Open Learning* bei der Arbeit.
 
 
 ## Die Erfinderfabrik von Edison

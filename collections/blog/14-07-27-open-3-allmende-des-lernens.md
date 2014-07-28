@@ -3,13 +3,12 @@ layout: post
 title: "\"Open\" - Teil 3: Allmende des Lernens"
 date: 2014-07-27 00:00
 slug: open-3-allmende-des-lernens
+description: "Ein wichtiges Merkmal, welches innovative und erfolgreiche Unternehmen, Schulen und soziale Gruppen verbindet: Sie schaffen aussergewöhnliche Lernumgebungen."
 published: true
-comments: false
+comments: true
 ---
 
 ***
-
-Dies ist **Teil 3** der Artikelserie:
 
 * [Teil 1: Einleitung](/blog/open-1-einleitung/)
 * [Teil 2: SOFT Prinzipien](/blog/open-2-soft-prinzipien/)
@@ -24,7 +23,9 @@ David Price identifiziert ein wichtiges Merkmal, welches innovative und erfolgre
 > They manage to combine culture, structure, ambience and space to create exceptional learning environments.
 <footer><i class="fa fa-book"></i> Seite 76</footer>
 
-Er nennt dies die *Global Learning Commons*. Dieser Begriff ist etwas schwierig zu übersetzen. Man könnte es beschreiben als *für die Allgemeinheit frei zugängliches Lernen*, oder auch *Allmende des Lernens*. Dies ist durchaus revolutionär. David betrachtet die Entwicklung anhand der Geschichte des [Enclosure Movements](http://de.wikipedia.org/wiki/Enclosure_Movement) in England:
+Er nennt dies die *Global Learning Commons*. Dieser Begriff ist etwas schwierig zu übersetzen. Man könnte es beschreiben als *für die Allgemeinheit frei zugängliches Lernen*, oder auch *Allmende des Lernens*.
+
+Eine Bewegung von *Allmende des Lernens* ist durchaus revolutionär. David betrachtet die Entwicklung anhand der Geschichte des [Enclosure Movements](http://de.wikipedia.org/wiki/Enclosure_Movement) in England:
 
 Bis ins 17. Jahrhundert galten die Land- und Forstflächen in England als Allgemeingut, sogenannte [Allmende](http://de.wikipedia.org/wiki/Allmende). Die Bauern hatten das Recht, die öffentlichen Flächen zu bewirtschaften. Über die nächsten drei Jahrhunderte wurden diese Allmende aufgelöst und gingen über in Privatbesitz. Argumentiert wurde mit höherer Effizienz der Bewirtschaftung und so nahm eine ganz bestimmte Art von gemeinschaftlichem Leben ein Ende. Diese Entwicklung führte zu einer Verarmung von vielen Kleinbauern, die sich den Erwerb von Land nicht leisten konnten und so auf die bisher allen zur Verfügung stehenden Nutzflächen verzichten mussten.
 
