@@ -5040,6 +5040,16 @@ img {
   max-width: 100%;
   height: auto; }
 
+.img-right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px; }
+
+.img-left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px; }
+
 .main-text {
   color: #e91e63; }
 
@@ -5134,12 +5144,17 @@ ol.alpha-list,
 .site-footer {
   position: relative;
   margin: 8rem 0 0 0;
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   border-top: #eeeeee 1px solid;
   text-align: center;
   background: #fbfbfb;
   font-size: 16px;
   color: #999999; }
+  .site-footer form {
+    margin-bottom: 14px; }
+  .site-footer .form-control {
+    margin-bottom: 5px; }
 
 .site-navigation {
   text-align: center;
@@ -5185,15 +5200,6 @@ ol.alpha-list,
 .container-restricted {
   max-width: 750px; }
 
-.home-featured {
-  margin-top: 70px; }
-
-.home-recent {
-  margin-top: 70px; }
-  .home-recent h3,
-  .home-recent h4 {
-    font-weight: normal; }
-
 .post-container {
   max-width: 750px; }
 
@@ -5201,26 +5207,17 @@ ol.alpha-list,
   text-align: center;
   margin-top: 2em; }
 
-.article-title {
-  margin-top: 0; }
-
-.article-date,
 .post-date {
   font-size: 15px;
   line-height: 1;
   color: #999999; }
 
-.article-content,
 .post-content {
   margin-top: 2em;
   margin-bottom: 2em; }
 
 .post-ruler {
   width: 50%; }
-
-.article-paging {
-  text-align: center;
-  margin-top: 2em; }
 
 .paging {
   position: relative;
