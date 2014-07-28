@@ -6,7 +6,7 @@
 <div class="container container-restricted">
   {% include "navigation" %}
   
-  {% collection "blog" by 5 order desc %}
+  {% collection "blog" by 7 order desc %}
     {% if collection.current_page > collection.pages and collection.size > 0 %}
       {% include "blog/paged-too-far" %}
     {% elseif collection.size == 0 %}

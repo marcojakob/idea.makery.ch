@@ -10,7 +10,7 @@
   
   <section class="post-content">
     {% capture more %}... {% endcapture %}
-    <p>{{ post.body | strip_html | truncatewords:50,more }}</p>
+    <p>{{ post.description | strip_html | truncatewords:50,more }}</p>
     <p><a href="{{ post.slug }}/" class="post-more btn btn-default">Weiterlesen &rarr;</a></p>
   </section>
   <hr class="post-ruler">
