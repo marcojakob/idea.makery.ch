@@ -8,9 +8,7 @@ published: true
 comments: true
 ---
 
-In diesem Teil geht es um *Open Learning* bei der Arbeit.
-
-***
+*Dies ist Teil 4 einer Artikelserie über das Buch "Open - How We'll Work, Live and Learn In The Future" von David Price.*
 
 * [Teil 1: Einleitung](/blog/open-1-einleitung/)
 * [Teil 2: SOFT Prinzipien](/blog/open-2-soft-prinzipien/)

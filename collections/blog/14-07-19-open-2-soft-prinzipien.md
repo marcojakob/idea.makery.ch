@@ -8,9 +8,7 @@ published: true
 comments: true
 ---
 
-David Price führt vier Werte ein, die das prägen, was wir online und immer mehr auch offline tun. Es sind die Werte *Share*, *Open*, *Free* und *Trust* (kurz *SOFT*).
-
-***
+*Dies ist Teil 2 einer Artikelserie über das Buch "Open - How We'll Work, Live and Learn In The Future" von David Price.*
 
 * [Teil 1: Einleitung](/blog/open-1-einleitung/)
 * **Teil 2: SOFT Prinzipien**
@@ -20,6 +18,7 @@ David Price führt vier Werte ein, die das prägen, was wir online und immer meh
 
 ***
 
+David Price führt vier Werte ein, die das prägen, was wir online und immer mehr auch offline tun. Es sind die Werte *Share*, *Open*, *Free* und *Trust* (kurz *SOFT*).
 
 ### Share
 
